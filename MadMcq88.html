@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 35%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="left" style="background-color:#bbb;">
+    <h2>MAD MCQ</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a href="#">Android Is Developed By :Android Inc</a></li>
+      <li><a href="#">Android Web Browser Is Based On:Open-source Webkit</a></li>
+      <li><a href="#">Android is an _____________Operating System:Open Source</a></li>
+      <li><a href="#">Android IDE:Android Studio,Eclips IDE,IntelliJ IDEA</a></li>
+      <li><a href="#">Which Programming Language Is Used For Android
+Application Development?:Java
+Kotlin</a></li>
+      <li><a href="#">Android Is Based On Which Kernal:Linux</a></li>
+      <li><a href="#">Native Libraries:WebKit,OpenGL,FreeType</a></li>
+      <li><a href="#">GCM stands for:Google Cloud Messaging</a></li>
+      <li><a href="#">When Android 1.0 released?:2008</a></li>
+      <li><a href="#">Which company acquired Android Inc. in 2005:Google</a></li>
+      <li><a href="#"> When did Open Handset Alliance announce:2007</a></li>
+      <li><a href="#">Linux kernel is the base of the Android platform:true</a></li>
+      <li><a href="#">Android Beam is based on _______ technology:NFC</a></li>
+      <li><a href="#">NFC stands for:Near Field Commucation technology</a></li>
+      <li><a href="#">Android Development Tools:Android Studio,Ecllipes</a></li>
+      <li><a href="#">AVD stands for:Android Virtual Device</a></li>
+      <li><a href="#">What does DVM stand for:Dalvik Virtual Machine</a></li>
+      <li><a href="#"> Dalvik is ___________ based:register</a></li>
+      <li><a href="#">JVM based on:stack</a></li>
+      <li><a href="#">official IDE for Android App Development:Android Studio</a></li>
+      <li><a href="#">Is Unix a time-sharing operating system:True</a></li>
+      <li><a href="#">LOCUS is an _______________ Operating System:distrubuted</a></li>
+      <li><a href="#">The JDK is a development environment for building:application,applets,components</a></li>
+      <li><a href="#">Is Android Studio runs on Linux:True</a></li>
+      <li><a href="#">apk is a ____________ :file format</a></li>
+      <li><a href="#"> APK stands for:Andriod application Package</a></li>
+      <li><a href="#"> DVM uses its own byte code and runs "_____" file.:.dex</a></li>
+      <li><a href="#">What does the Dex compiler do:Convert .class to .dex</a></li>
+      <li><a href="#">Is that true DVM supports Android OS only:true</a></li>
+      <li><a href="#">The android component that shows the part of an activity on
+the screen is called:fragment</a></li>
+      <li><a href="#">The layout or design of an android application is saved in:.xml file</a></li>
+      <li><a href="#">For specialized layout elements, the palette element used is:custom</a></li>
+      <li><a href="#">What is an activity in Android:- Activity performs the actions on the screen</a></li>
+      <li><a href="#">Is it possible to have activity without UI to perform
+action/actions:yes</a></li>
+      <li><a href="#">How to pass the data between activities in Android:intent</a></li>
+      <li><a href="#">What is the context in android?:It is an interface to store global information about an application,It is used to create new components,Android has two contexts, those are getContext and getApplicationContext</a></li>
+      <li><a href="#">What is Pending Intent in android:It will fire at a future point of time.</a></li>
+      <li><a href="#">What is the android view group:collection of views and other child views</a></li>
+      <li><a href="#">layouts available in android:- Linear Layout,Frame Layout,Table Layout,Relative Layout</a></li>
+      <li><a href="#">subclasses in Android: Action Bar Activity,Launcher Activity,Preference Activity,Tab Activity</a></li>
+      <li><a href="#">What is Manifest.xml in android:- It has all the information about an application</a></li>
+      <li><a href="#">In which folder the activity_main.xml a layout file is
+available: res/layout</a></li>
+      <li><a href="#">. Which file contains compilesdkVersion ,buildtoolVersion
+,minsdkVersion , versionName ,etc:Build.gradle</a></li>
+      <li><a href="#">Select correct UI control: A drop-down list that allows users
+to select one value from a set:Spinner</a></li>
+      <li><a href="#"> What Activity method you use to retrieve a reference to an
+android view by using the id attribute of a resource XML: findViewById(int id)
+</a></li>
+      <li><a href="#">Android component:Service,Activity,Content Provider</a></li>
+      <li><a href="#">Which configuration file holds the permission to use the
+internet:manifest file</a></li>
+      <li><a href="#">Which of the following is NOT a valid usage for Intents: Activate a SQLite DB Connection</a></li>
+      <li><a href="#">Which of the following is not a valid Android resource
+filename:myLayout.xml</a></li>
+      <li><a href="#"> ______________ attributes specifies the name of your application.:Label</a></li>
+      <li><a href="#">To perform repeated tasks,we use _____________ class.:timer</a></li>
+      <li><a href="#"> EditText is subclass of _____:Textview</a></li>
+      <li><a href="#">A class that displays a toast-shaped message for the user is:toast class</a></li>
+      <li><a href="#">Which view is used to displays a horizontal loading indicator?:progress bar</a></li>
+      <li><a href="#">Which view is used to displays a checkbox with a text label:Checkbox</a></li>
+      <li><a href="#"> Which android view is used to displays a button with a text label:Button</a></li>      
+      <li><a href="#">Which view is used to displays the radio button:radio button</a></li>
+      <li><a href="#">Which view is used to displays a click on it to show a list of dropdown option:Spinner</a></li>
+      <li><a href="#">Which view is used to displays a text field that you can type into:Edittext</a></li>
+      <li><a href="#">Which android view is used to display the image:ImageView</a></li>
+      <li><a href="#">Which view is used to displays loading spinner:progress bar</a></li>
+      <li><a href="#">Which android view is used to displays text:TextView</a></li>
+      <li><a href="#">Which view is used to displays progress and allows you to drag the handle anywhere in the bar:SeekBar</a></li>
+      <li><a href="#"></a>Which view is used to displays a vertically scrollable list?:ListView</li>
+      <li><a href="#">The ListView and GridView are the subclasses of ________ :AdapaterView</a></li>
+      <li><a href="#">. Which attribute is used to set an image in ImageView:src</a></li>
+      <li><a href="#">Which method is used to get a calendar view in android:getCalendarView()</a></li>
+      <li><a href="#">Which class is used for a set of radio buttons:RadioGroup</a></li>
+      <li><a href="#">Which android view is used to displays checked/unchecked sates as a
+button:Toogle Button</a></li>
+      <li><a href="#">If you want to navigate from one activity to another then android
+provides you which class:Intent</a></li>
+      <li><a href="#"> What is Pending Intent in android:It will fire at a future point of time</a></li>      
+      <li><a href="#">. The types of intents in android is\are:implicit and explicit Intent</a></li>
+      <li><a href="#"> In android, mini-activities are also known as. :fragment</a></li>
+      <li><a href="#">5. Suppose that there are two activities in an application named
+FirstActivity and SecondActivity. You want to send the website name
+from ActivityOne to ActivityTwo. What code you will write?:Intent intent=new Intent (this, SecondActivity.class); intent.putExtra("name",
+“cwipedia.in”); startActivity(intent);</a></li>
+      <li><a href="#">For creating Fragments the java class needs to extend which base
+class?:Fragment</a></li>
+      <li><a href="#">You can shut down activity by calling its _______ method:finish()</a></li>
+      <li><a href="#"> Parent class of Activity:contextThemeWrapper</a></li>      
+      <li><a href="#">Once installed on a device, each Android application lives in_______?:security sandbox</a></li>
+      <li><a href="#"> What are the Direct subclasses of Activity?:AccountAuthenticatorActivity,ActivityGroup,ExpandableListActivity,FragmentActivity,ListActivity</a></li>
+      <li><a href="#">What are the indirect Direct subclasses of Activity?:LauncherActivity,PreferenceActivity,TabActivity</a></li>
+      <li><a href="#">Parent class of Service:ContextWrapper</a></li>
+      <li><a href="#"></a> Which component is not activated by an Intent?:ContentProvider</li>
+      <li><a href="#">When contentProvider would be activated</a></li>
+      <li><a href="#">component activated by an Intent: Activity,Services,BroadcastReceiver:using Content Resolver</a></li>
+      <li><a href="#">Which one is NOT related to fragment class?:CursorFragment</a></li>      
+      <li><a href="#">Class related to fragement class:DialogFragment;ListFragment
+;PreferenceFragment</a></li>
+      <li><a href="#">How many ways to start services:Started;Bounded</a></li>
+      <li><a href="#">On which thread services work in android?:Main Thread</a></li>
+      <li><a href="#">Explain the android activity life cycle:OnCreate() −> onStart() −>onResume() −> onPause() −> onStop() −>
+onRestart() −> onDestroy()</a></li>
+      <li><a href="#">What are the functionalities of Binder services in android?:- Binder is responsible to manage the thread while using aidl in android;Binder is responsible for marshalling and un-marshalling of the data
+</a></li>
+      <li><a href="#">What is the difference between content values and cursor in android SQLite:- Cursor is used to store data permanently</a></li>      
+      <li><a href="#">How many orientations do android support?:4</a></li>
+      <li><a href="#">AsyncTask allows you to perform asynchronous work on your user
+interface. It performs the blocking operations in a worker thread and
+then publishes the results on the UI thread.:true</a></li>
+      <li><a href="#"> How many threads are there in asyncTask in android:only one</a></li>
+      <li><a href="#"> What is the fragment life cycle in android?: - onAttach()->onCreate() −> onCreateView() −> onActivityCreated() −> onStart()
+−> onResume()
+</a></li>
+      <li><a href="#">What are the functionalities in asyncTask in android:onPostExceution</a></li>
+      <li><a href="#">How to upgrade SQLite the database from a lower version to a higher
+version in android SQlite:Using helper class</a></li>
+      <li><a href="#"> What is the difference between content values and cursor in android SQlite:Content values are key pair values, which are updated or inserted in the database;Cursor is used to store the temporary result.</a></li>
+      <li><a href="#">How to store heavy structured data in android:SQlite database</a></li>      
+      <li><a href="#"> What is JNI in android:Java native interface</a></li>
+      <li><a href="#">What does A stand for w.r.t ACID property: Atomicity
+</a></li>
+      <li><a href="#">Can a user save all database updates in onStop ()?:No, In some situations, a user can't reach onStop()</a></li>
+      <li><a href="#">Which class is used to send SMS programmatically:SmsManager</a></li>
+      <li><a href="#">Which permission you need to declare in your AndroidManifest.xml file for sending SMS.:&#40;uses-permission android:name="android.permission.SEND_SMS"/&#40;</a></li>
+      <li><a href="#">Which element is used to display Google Maps in your UI?:MapView</a></li>      
+      <li><a href="#">For using Google map which permission you will specify in the
+AndroidManifest.xml?:INTERNET</a></li>
+      <li><a href="#">If you have used the Google Maps API into your Android application but it does not show the map when the application is loaded, what could
+be the possible reasons?:No Internet connection;Incorrect placement of the element in the AndroidManifest.xml file;Missing INTERNET permission in the AndroidManifest.xml file</a></li>
+      <li><a href="#">What is geocoding:Geocoding is the act of converting an address into its coordinates (latitude
+and longitude).</a></li>
+      <li><a href="#">To enable zoom control on google map, Which method of MapView is
+used? Suppose that instance of MapView is mapView.:mapView.setBuiltInZoomControls(true);</a></li>
+      <li><a href="#"> By default, Google Maps displays the map of the United States when it is first loaded. How you can display the particular location?:By using the animateTo() method of the MapController class.</a></li>
+      <li><a href="#">How will you add a marker on the map?:Implement an Overlay class and override the draw() method.
+</a></li>
+      <li><a href="#">Which class is used to access to the system location services?:LocationManager
+</a></li>
+      <li><a href="#">If you know the address of a location but want to know its latitude and longitude, then which class is used? :Geocoder</a></li>      
+      <li><a href="#">What is the sandbox in android?:Each application runs securely in sandbox without interrupting another
+process</a></li>
+      <li><a href="#">How many levels of securities are there in android?:App level security and kernel level security</a></li>
+      <li><a href="#">What are the commands needed to create APK in android:Javac,dxtool, aapt tool, jarsigner tool, and zipalign
+</a></li>
+      <li><a href="#">What is APK in android?:Android packaging kit</a></li>
+      <li><a href="#">is google developer console-free?:NO</a></li>
+      <li><a href="#">What is the daily limit of uploading apps on the play store:15</a></li>      
+      <li><a href="#">If you publish your app as a free, it must remain free for a lifetime of
+the app.:True</a></li>
+      <li><a href="#">You need to pay a one-time "Developer Registration Fee " of_________to Google: $25 USD
+</a></li>
+      <li><a href="#">Android applications signed at the time ____:Before installed</a></li>
+      <li><a href="#">In android application Which file holds the internet_____.:Menifest File</a></li>
+      <li><a href="#"> Specifies the layout of android screen use_____file:Layout</a></li>
+      <li><a href="#">______ contains the R.java file:gen</a></li>
+      <li><a href="#"> In memory, Activity doesn’t exist That is____state.:starting</a></li>
+      <li><a href="#">Src folder contain____files:Java source code</a></li>
+      <li><a href="#">which class stores additional information?:Bundle</a></li>
+      <li><a href="#">In Status data a _____use in the android system:content provider
+</a></li>      
+      <li><a href="#">_____method is used to close an activity:Finish</a></li>
+      <li><a href="#">To use the Android menu system what method you should override?
+: on Create Options Menu()</a></li>
+      <li><a href="#"> Which is not an Android component of the following?
+:Service</a></li>
+      <li><a href="#">____is the first callback method invoked by the system during an Activity life-cycle,?:on Create()</a></li>
+      <li><a href="#">What does the line of code achieve of the following?Intent intent = new Intent(FirstActivity.this,SecondActivity.class );:Start an Activity</a></li>
+      <li><a href="#"> Which is NOT a valid usage for Intents of the following?:Activate an SQLite DB Connection</a></li>
+      <li><a href="#">Use of Sql:Activate an Activity ;Activate a Service</a></li>
+      <li><a href="#"> Which is not a valid Android resource file name of the following: myLayout.xml</a></li>
+      <li><a href="#">valid Android resource file name:my_layout.xml;mylayout.xml</a></li>
+      <li><a href="#">______of the following is not defined as a process state:Non-Visible</a></li>      
+      <li><a href="#">. ______of the following is defined as a process state:VIsible,Foreground</a></li>
+      <li><a href="#">Which is a correct statement about an XML layout file of the following: A file that is used to draw the content of an Activity</a></li>
+      <li><a href="#"> The src folder contains _____ of the following?:Java Source Code File</a></li>
+      <li><a href="#">______is the parent class of all Activity widgets?
+:View</a></li>
+      <li><a href="#">______ is the name of the class used by Intent to store additional information?:Bundle</a></li>
+      <li><a href="#">______is not included in the Android application framework:Dialer Manager</a></li>
+      <li><a href="#">______is included in the Android application framework: Notification Manager,Window Manager</a></li>
+      <li><a href="#">Which Eclipse plugin is required to develop Android application:Andriod  Development Tools</a></li>
+      <li><a href="#">_______ of these files contains text values that you can use in your application?:res/values/strings.xml</a></li>
+      <li><a href="#">The Android project folder “res/” contain_____?:Resource files</a></li>      
+      <li><a href="#">Which is a Java call-back method invoked when a view is clicked of the following:OnClickListener</a></li>
+      <li><a href="#">Which is not an Activity lifecycle call-back method of the following?:OnClickListener</a></li>
+      <li><a href="#">Which is not an Activity lifecycle call-back method of the following:onBackPressed</a></li>
+      <li><a href="#">Activity lifecycle call-back method:onPause,onStart,onCreate</a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+  
+</div>
+
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+</body>
+</html>
